@@ -1,0 +1,12 @@
+name: sagemaker_example
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - s3fs==0.4.2
+  - pip:
+      - sagemaker
